@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Specifies ECMAScript target version (e.g., es5, es6, es2020)
+    "module": "commonjs", // Specifies the module system (e.g., commonjs, es6, amd, umd)
+    "strict": false, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enables compatibility with CommonJS-style modules
+    "skipLibCheck": true, // Skip type checking of declaration files (helps with performance)
+    "forceConsistentCasingInFileNames": true, // Enforces consistent casing for file names
+    "outDir": "./dist", // Redirect output structure to the "dist" folder
+    "rootDir": "./src", // Specifies the root directory of your source files
+    "resolveJsonModule": true, // Allow importing .json files
+    "noEmitOnError": true, // Prevents emitting files if there are any errors
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "allowJs": true, // Allows JavaScript files to be compiled alongside TypeScript files
+    "isolatedModules": true, // Ensures each file can be safely transpiled independently
+    "skipDefaultLibCheck": true, // Skip type checking for default libraries
+    "lib": ["es6", "dom"] // Specify library files to include in the compilation (e.g., es6, dom, es2020)
+  },
+
+  "exclude": [
+    "node_modules", // Exclude the "node_modules" folder
+    "dist" // Exclude the output folder "dist"
+  ]
+}
