@@ -14,7 +14,8 @@
     "allowJs": true, // Allows JavaScript files to be compiled alongside TypeScript files
     "isolatedModules": true, // Ensures each file can be safely transpiled independently
     "skipDefaultLibCheck": true, // Skip type checking for default libraries
-    "lib": ["es6", "dom"] // Specify library files to include in the compilation (e.g., es6, dom, es2020)
+    "lib": ["es6", "dom"], // Specify library files to include in the compilation (e.g., es6, dom, es2020)
+    "downlevelIteration": true
   },
 
   "exclude": [
